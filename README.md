@@ -10,7 +10,7 @@ A complete library management system developed with **C# .NET** on the backend a
 - 📱 **Responsive interface** with Tailwind CSS
 - 🎯 **Reading status system** (Want to Read, Reading, Read)
 - 📊 **Stock control** (total copies, copies in use, available)
-- ⚡ **Full REST API** with Swagger documentation
+- ⚡ **Full REST API** with Scalar documentation
 
 ## 🛠️ Technologies Used
 
@@ -18,7 +18,7 @@ A complete library management system developed with **C# .NET** on the backend a
 - **C# .NET 9**
 - **Entity Framework Core** (SQL Server)
 - **ASP.NET Core Web API**
-- **Swagger/OpenAPI** for documentation
+- **Scalar** for documentation
 
 ### Frontend
 - **React 18** with TypeScript
@@ -38,7 +38,7 @@ A complete library management system developed with **C# .NET** on the backend a
 
 1. **Clone the repository**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/weltonsousa/BookLibraryProject
    cd library-project
    ```
 
@@ -49,7 +49,7 @@ A complete library management system developed with **C# .NET** on the backend a
    ```
 
 3. **Set up the connection string**
-   
+
    Edit the `appsettings.json` file:
    ```json
    {
@@ -81,7 +81,7 @@ A complete library management system developed with **C# .NET** on the backend a
    ```
 
 2. **Set up the environment variables**
-   
+
    Create a `.env` file at the root of the frontend project:
    ```env
    REACT_APP_API_URL=https://localhost:7182/api
@@ -162,7 +162,7 @@ library-project/
 ### Enum BookStatus
 
 - `WantToRead` - Want to read
-- `Reading` - Reading  
+- `Reading` - Reading
 - `Read` - Read
 
 ## 🌐 API Endpoints
@@ -229,6 +229,6 @@ This project is under the MIT license. See the [LICENSE](LICENSE) file for more 
 
 ## 👥 Authors
 
-- **Welton Sousa** - *Initial development* - [YourGitHub](https://github.com/weltonsousa)
+- **Welton Sousa** - *Software Engineer* -
 
 ⭐ If this project helped you, consider starring the repository!
